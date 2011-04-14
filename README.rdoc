@@ -1,0 +1,61 @@
+=Lorempixum
+
+This gem generates image urls for placeholder images.
+
+http://github.com/neonlex/lorempixum
+
+
+==Installation
+
+You can use the latest Lorempixum gem:
+
+  gem install lorempixum
+
+After you install Lorempixum, add it to your Gemfile.
+
+==Usage
+
+===Generated helper methods
+
+  placeholder_image_tag
+  lorempixum_image_tag
+
+
+===Using the helper method
+
+  placeholder_image_tag(:grey => true, :width => 150, :height => 150, :category => :sports, :number => 2)
+
+Every attribute is optional and the default size is 100x100.
+
+
+==Authors
+
+{Daniel Spangenberg}[http://github.com/neonlex]
+
+Please find out more about my work in my
+{blog}[http://neonlex.github.com].
+
+
+==License
+
+The MIT License
+
+Copyright (c) 2009 {Daniel Spangenberg}[http://neonlex.github.com]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
