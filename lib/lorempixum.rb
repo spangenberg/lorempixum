@@ -5,10 +5,10 @@ module ActionView
         source = "http://lorempixum.com"
         options[:alt] = "lorempixum" unless options.has_key?(:alt)
 
-        # grey
-        if options.has_key?(:grey)
-          source += "/g" if options[:grey]
-          options.delete(:grey)
+        # gray
+        if options.has_key?(:gray)
+          source += "/g" if options[:gray]
+          options.delete(:gray)
         end
 
         # width
